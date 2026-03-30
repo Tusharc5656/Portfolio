@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tushar Chandra</title>
+    <meta name="description" content="Personal portfolio of Tushar - Frontend Developer & Designer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Very Attractive Background -->
+    <div class="bg-container">
+        <div class="bg-grid"></div>
+        <div class="stars-container" id="stars-container"></div>
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="glow glow-3"></div>
+        <div class="glow glow-4"></div>
+        <!-- Dynamic Blobs -->
+        <div class="blobs-container">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="logo">T.</a>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-btn" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <ul class="mobile-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in-section">
+        <div class="hero-content">
+
+            <span class="subtitle">Hi there! I'm</span>
+            <h1 class="title">Tushar Chandra<span class="highlight">.</span></h1>
+            <h2 class="role">Data Science <br><span class="gradient-text">Enthusiast</span></h2>
+            <p class="description">I am a third-year B.Tech CSE student specializing in Data Science. I am passionate
+                about leveraging data analytics, machine learning, and problem-solving to build impactful
+                intelligence-driven solutions.</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                <a href="cv_for_placement.pdf" download="Tushar_Chandra_CV.pdf" class="btn btn-glow">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="7 10 12 15 17 10"></polyline>
+                        <line x1="12" y1="15" x2="12" y2="3"></line>
+                    </svg>
+                    Download CV
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <!-- Data skeleton -->
+            <div class="visual-card glass-card visual-1">
+                <div class="card-ui-skeleton">
+                    <div class="ui-line" style="width: 80%"></div>
+                    <div class="ui-line" style="width: 60%"></div>
+                    <div class="ui-line" style="width: 90%"></div>
+                    <div class="ui-line" style="width: 40%"></div>
+                    <div class="ui-line highlight-line" style="width: 70%"></div>
+                </div>
+            </div>
+            <!-- ML Orb -->
+            <div class="visual-card glass-card visual-2">
+                <div class="crystal-orb"></div>
+                <div class="orb-ring ring-1"></div>
+                <div class="orb-ring ring-2"></div>
+                <div class="orb-ring ring-3"></div>
+            </div>
+            <!-- Analytics Chart -->
+            <div class="visual-card glass-card visual-3">
+                <div class="chart-bars">
+                    <div class="bar bar-1"></div>
+                    <div class="bar bar-2"></div>
+                    <div class="bar bar-3"></div>
+                    <div class="bar bar-4"></div>
+                    <div class="bar bar-5"></div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <div class="hero-scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="scroll-arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in-section">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text glass-card">
+                <h3>Who I Am</h3>
+                <p>Hello! I'm <strong>Tushar Chandra</strong>, a third-year <strong>B.Tech Computer Science and
+                        Engineering</strong> student at
+                    <strong>Lovely Professional University</strong> and a passionate learner in the field of technology.
+                    I enjoy
+                    exploring how logic, creativity, and data can come together to build meaningful digital solutions.
+                </p>
+
+                <p>My journey in technology started with curiosity about how software works. Since then, I’ve been
+                    learning and practicing programming, working with languages like <strong>C++ and web
+                        technologies</strong>, and
+                    continuously improving my problem-solving skills. I enjoy building projects that are simple,
+                    efficient, and practical.</p>
+
+                <p>I am particularly interested in <strong>data science and data-driven technologies</strong>, and my
+                    goal is to
+                    build a career as a <strong>Data Scientist</strong>, using data to uncover insights and create
+                    intelligent
+                    solutions that can make real-world impact.</p>
+
+                <p>I constantly explore new technologies, tools, and industry trends to keep learning and growing. For
+                    me, every project is an opportunity to improve my skills, experiment with new ideas, and build
+                    something that is both useful and meaningful.</p>
+                <p>I constantly explore new technologies and design trends to stay ahead of the curve, ensuring that
+                    every project I touch feels modern, premium, and inherently dynamic.</p>
+            </div>
+            <div class="about-skills glass-card premium-skills-card">
+                <h3>Core Skills</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper html-css">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                                alt="HTML5" width="24">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                                alt="CSS3" width="24" style="margin-left: -5px;">
+                        </div>
+                        <span class="skill-name">HTML5 & CSS3</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper js">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                                alt="JavaScript" width="26">
+                        </div>
+                        <span class="skill-name">Modern JS</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper python">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                alt="Python" width="26">
+                        </div>
+                        <span class="skill-name">Python</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper java-cpp">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                alt="Java" width="24">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                alt="C++" width="24" style="margin-left: -5px;">
+                        </div>
+                        <span class="skill-name">Java & C++</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper matplotlib">
+                            <img src="https://api.iconify.design/logos:matplotlib.svg" alt="Matplotlib" width="28"
+                                style="filter: drop-shadow(0 0 5px rgba(255,255,255,0.1));">
+                        </div>
+                        <span class="skill-name">Matplotlib</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper pandas">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                alt="Numpy" width="22">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                alt="Pandas" width="22" style="margin-left: -5px;">
+                        </div>
+                        <span class="skill-name">Numpy & Pandas</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper scikit">
+                            <img src="https://cdn.simpleicons.org/scikitlearn/F7931E" alt="Scikit-learn" width="28">
+                        </div>
+                        <span class="skill-name">Scikit-learn</span>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-icon-wrapper analytics">
+                            <img src="https://api.iconify.design/logos:microsoft-power-bi.svg" alt="Power BI" width="28"
+                                style="filter: drop-shadow(0 0 5px rgba(255,255,255,0.1));">
+                        </div>
+                        <span class="skill-name">Data Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats Section (Fill) -->
+        <div class="stats-container mt-12">
+            <div class="stat-card glass-card reveal-on-scroll grad-card" data-tilt>
+                <div class="stat-icon pulse-blue">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <p class="university-name">Lovely Professional University</p>
+                    <span class="degree-title">B.Tech in CSE</span>
+                    <span class="passing-year-badge">Batch of 2023</span>
+                    <span class="passing-year-badge">Passing out in 2027</span>
+                </div>
+            </div>
+            <div class="stat-card glass-card reveal-on-scroll" data-tilt data-aos-delay="100">
+                <div class="stat-icon pulse-purple">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path
+                            d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z">
+                        </path>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-num-wrapper">
+                        <span class="stat-number" data-target="8">0</span><span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Certifications</p>
+                </div>
+            </div>
+            <div class="stat-card glass-card reveal-on-scroll cgpa-card" data-tilt data-aos-delay="200">
+                <div class="stat-icon pulse-rose">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                    </svg>
+                </div>
+                <div class="stat-content">
+                    <div class="stat-num-wrapper cgpa-display">
+                        <span class="academics-label">Academic</span>
+                        <span class="cgpa-value">7.48</span>
+                    </div>
+                    <p class="stat-label">University CGPA <span class="hover-hint">(hover to see)</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tech Marquee (Fill) -->
+        <div class="tech-marquee-wrapper mt-12">
+            <div class="marquee-content">
+                <span class="marquee-item">Python</span>
+                <span class="marquee-item">TensorFlow</span>
+                <span class="marquee-item">React.js</span>
+                <span class="marquee-item">Data Science</span>
+                <span class="marquee-item">Machine Learning</span>
+                <span class="marquee-item">Scikit-learn</span>
+                <span class="marquee-item">Tableau</span>
+                <span class="marquee-item">Pandas</span>
+
+                <span class="marquee-item">SQL</span>
+                <span class="marquee-item">Java</span>
+                <span class="marquee-item">Python</span>
+                <span class="marquee-item">TensorFlow</span>
+                <span class="marquee-item">React.js</span>
+                <span class="marquee-item">Data Science</span>
+                <span class="marquee-item">Machine Learning</span>
+                <span class="marquee-item">Scikit-learn</span>
+                <span class="marquee-item">Tableau</span>
+                <span class="marquee-item">Pandas</span>
+
+                <span class="marquee-item">SQL</span>
+                <span class="marquee-item">Java</span>
+            </div>
+        </div>
+
+        <!-- Certifications Section -->
+        <div class="certifications glass-card mt-6">
+            <h3>Certifications</h3>
+            <div class="certifications-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card" data-cert="image.png">
+                    <div class="cert-img-container">
+                        <img src="image.png" alt="DSA Using Java" class="cert-thumb">
+                        <div class="cert-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h4>DSA Using Java</h4>
+                        <p class="cert-meta">CipherSchool • 2025</p>
+                        <a href="https://www.cipherschools.com/certificate/preview?id=687b4fef06ffe76122762155"
+                            target="_blank" class="cert-link-btn">
+                            Official Credential
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cert 2 -->
+                <div class="cert-card" data-cert="image copy 2.png">
+                    <div class="cert-img-container">
+                        <img src="image copy 2.png" alt="Responsive Web Design" class="cert-thumb">
+                        <div class="cert-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Cloud Computung</h4>
+                        <p class="cert-meta">NPTEL • 2025</p>
+                        <a href="#" target="_blank" class="cert-link-btn">
+                            Official Credential
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Cert 3 -->
+                <div class="cert-card" data-cert="image copy.png">
+                    <div class="cert-img-container">
+                        <img src="image copy.png" alt="Data Analytics Job Simulation" class="cert-thumb">
+                        <div class="cert-overlay">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="11" cy="11" r="8"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                                <line x1="11" y1="8" x2="11" y2="14"></line>
+                                <line x1="8" y1="11" x2="14" y2="11"></line>
+                            </svg>
+                            <span>Quick View</span>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h4>Data Analytics Job Simulation</h4>
+                        <p class="cert-meta">Deloitte • 2025</p>
+                        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_xFdv8bbAFXWX64yNY_1752416789284_completion_certificate.pdf"
+                            target="_blank" class="cert-link-btn">
+                            Official Credential
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cert-view-more mt-8 flex-center">
+                <a href="https://www.linkedin.com/in/tusharc5656/details/certifications/" target="_blank"
+                    class="btn btn-secondary btn-glow">
+                    View More Certificates
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="1"></circle>
+                        <circle cx="19" cy="12" r="1"></circle>
+                        <circle cx="5" cy="12" r="1"></circle>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects fade-in-section">
+        <div class="section-header">
+            <h2 class="section-title">Project works</h2>
+            <div class="line"></div>
+        </div>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="fade-up">
+                <div class="project-img">
+                    <img src="image copy 3.png" alt="Neural Predictor">
+                    <div class="project-type-badge">Data Analysis</div>
+                </div>
+                <div class="project-info">
+                    <h3>Global disaster Analysis</h3>
+                    <p>An interactive Power BI dashboard visualizing global disaster patterns, severity, and economic
+                        impact.
+                        Designed to deliver clear insights for data-driven decision-making in disaster management.</p>
+                    <div class="project-tech">
+                        <span class="tech-powerbi">PowerBI</span>
+
+                    </div>
+
+                    <div class="project-action-pills">
+                        <a href="https://github.com/Tusharc5656/PowerBI_Dashboard.git" class="pill pill-code magnetic">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            VISIT GITHUB
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="project-img project-no-img aq-gradient">
+                    <div class="project-icon-bg">
+                        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5">
+                            <path
+                                d="M17.5 19c.7 0 1.3-.2 1.8-.7.5-.5.7-1.1.7-1.8 0-1.4-1.1-2.5-2.5-2.5-.2 0-.4 0-.6.1-.5-1.8-2.2-3.1-4.2-3.1-1.3 0-2.5.6-3.3 1.5-.4-.2-.9-.3-1.4-.3-1.7 0-3 1.3-3 3s1.3 3 3 3h9.5z">
+                            </path>
+                            <path d="M8 13h8"></path>
+                            <path d="M10 10h4"></path>
+                        </svg>
+                    </div>
+                    <div class="project-type-badge">Data Analysis</div>
+                </div>
+                <div class="project-info">
+                    <h3>Python Based Air Quality Analysis</h3>
+                    <p>An Exploratory Data Analysis (EDA) of air pollution across UP. Tracking peak PM10 levels and
+                        seasonal fluctuations.</p>
+                    <div class="project-tech">
+                        <span class="tech-python">Python</span>
+                        <span class="tech-pandas">Pandas</span>
+                        <span class="tech-matplotlib">Matplotlib</span>
+                        <span class="tech-seaborn">Seaborn</span>
+                    </div>
+
+                    <div class="project-action-pills">
+                        <a href="https://github.com/Tusharc5656/Uttar_pradesh_2005_airquality"
+                            class="pill pill-code magnetic">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            VISIT GITHUB
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <div class="project-img project-no-img cinema-gradient">
+                    <div class="cinema-visual">
+                        <div class="clapperboard">
+                            <div class="clapper-top"></div>
+                            <div class="clapper-bottom">
+                                <div class="clapper-text">SCENE 1 // TAKE 24</div>
+                            </div>
+                        </div>
+                        <div class="script-scroll-wrap">
+                            <div class="script-scroll">
+                                <span>"We're going to need a bigger boat."</span>
+                                <span>"I'll be back."</span>
+                                <span>"May the force be with you."</span>
+                                <span>"Elementary, my dear Watson."</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-type-badge">AI / NLP</div>
+                </div>
+                <div class="project-info">
+                    <h3>AI Movie Dialogue Generator</h3>
+                    <p>Harnessing NLP and fine-tuned GPT models to generate authentic movie scripts and character
+                        dialogues. Built for creative storytelling.</p>
+                    <div class="project-tech">
+                        <span class="tech-python">Python</span>
+                        <span class="tech-transformers">Transformers</span>
+
+                    </div>
+
+                    <div class="project-action-pills">
+                        <a href="https://github.com/Tusharc5656/AI-Movie-Dialogue-Generator"
+                            class="pill pill-code magnetic">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            VISIT GITHUB
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-footer mt-8 flex-center">
+            <a href="#" class="btn btn-secondary btn-glow">
+                Explore All Projects
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="1"></circle>
+                    <circle cx="19" cy="12" r="1"></circle>
+                    <circle cx="5" cy="12" r="1"></circle>
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <!-- Contact Section Redesign -->
+    <section id="contact" class="contact fade-in-section">
+        <div class="section-header">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="line"></div>
+        </div>
+
+        <div class="contact-wrapper">
+            <!-- Left Side: Info & Socials -->
+            <div class="contact-info-side">
+                <div class="contact-intro">
+                    <h2 class="contact-heading">Let's build something <span class="gradient-text">extraordinary</span>
+                        together.</h2>
+                    <p class="contact-desc">Whether you have a specific project in mind or just want to explore
+                        possibilities, I'm just a message away.</p>
+                </div>
+
+                <div class="contact-cards">
+                    <div class="contact-method-card glass-card magnetic">
+                        <div class="method-icon email-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                </path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                        <div class="method-details">
+                            <span>Email Me</span>
+                            <a href="mailto:tushar2004sk@gmail.com" class="method-value copyable"
+                                data-copy="tushar2004sk@gmail.com">tushar2004sk@gmail.com</a>
+                        </div>
+                        <button class="copy-btn" aria-label="Copy Email">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div class="social-grid">
+                        <a href="https://www.linkedin.com/in/tusharc5656/" target="_blank"
+                            class="social-pill glass-card magnetic">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/Tusharc5656" target="_blank"
+                            class="social-pill glass-card magnetic">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7a3.37 3.37 0 0 0-.94 2.58V22">
+                                </path>
+                            </svg>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Form -->
+            <div class="contact-form-side glass-card">
+                <form id="contact-form" class="premium-form">
+                    <div class="form-row">
+                        <div class="input-group">
+                            <input type="text" id="name" required>
+                            <label for="name">Your Name</label>
+                            <span class="input-bar"></span>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required>
+                            <label for="email">Email Address</label>
+                            <span class="input-bar"></span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" required></textarea>
+                        <label for="message">Your Message</label>
+                        <span class="input-bar"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="22" y1="2" x2="11" y2="13"></line>
+                            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Redesign -->
+    <footer class="premium-footer">
+        <div class="footer-blur-bg"></div>
+        <div class="footer-content">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <span class="footer-logo">T.</span>
+                    <p class="footer-tagline">Creating digital experiences that matter.</p>
+                    <div class="footer-location">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        Ranchi,Jharkhand(Bharat)
+                    </div>
+                </div>
+                <div class="footer-nav-grid">
+                    <div class="footer-nav-col">
+                        <h4>Navigation</h4>
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#projects">Work</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-nav-col">
+                        <h4>Interests</h4>
+                        <a href="#">Data Science</a>
+                        <a href="#">Machine Learning</a>
+                        <a href="#">Data Analysis</a>
+
+                    </div>
+                    <div class="footer-nav-col">
+                        <h4>Connect</h4>
+                        <a href="https://linkedin.com/in/tusharc5656/" target="_blank" class="footer-social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                            LinkedIn
+                        </a>
+                        <a href="https://github.com/Tusharc5656" target="_blank" class="footer-social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path
+                                    d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                                </path>
+                            </svg>
+                            GitHub
+                        </a>
+                        <a href="https://www.instagram.com/tush_trush/?hl=en" target="_blank"
+                            class="footer-social-link">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 Tushar Chandra. Designed with Technologia</p>
+                <div class="footer-status">
+                    <span class="status-dot"></span>
+                    Available for new projects
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="back-to-top" class="back-to-top glass-card" aria-label="Back to Top">
+        <span class="tooltip-text">Back to Top</span>
+        <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2L4.5 9.5H9V21H15V9.5h4.5L12 2z"></path>
+        </svg>
+    </button>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast">Copied to clipboard!</div>
+
+    <!-- Certificate Glimpse Modal -->
+    <div id="cert-modal" class="cert-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close Preview">&times;</button>
+            <div class="modal-body">
+                <img id="modal-img" src="" alt="Certificate Preview">
+            </div>
+        </div>
+    </div>
+
+    <!-- Iframe Modal for Live Dashboards -->
+    <div id="iframe-modal" class="cert-modal">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content" style="max-width: 95%; max-height: 95%;">
+            <button class="modal-close" aria-label="Close Live View">&times;</button>
+            <div class="iframe-modal-body">
+                <iframe id="project-iframe" src="" allowFullScreen="true"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
